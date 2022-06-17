@@ -12,7 +12,7 @@ It is a small python module for interacting with Zyte Smart Proxy Manager Stats 
 
 ### Usage
 
-For a single domain/netloc:
+1. For a single domain/netloc:
 
 `python -m zyte.spmstats <ORG-API> amazon.com 2022-06-15T18:50:00 2022-06-17T23:00`
 
@@ -30,7 +30,7 @@ Output:
       },
 `
 
-For a multiple domain/netloc:
+2. For a multiple domain/netloc:
 
 `python -m zyte.spmstats <ORG-API> amazon.com,pharmamarket.be 2022-06-15T18:50:00 2022-06-17T23:00`
 
